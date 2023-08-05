@@ -4,45 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MLH Events API using Python</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f5f5f5;
-      color: #333;
-      margin: 0;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 16px;
-      margin-bottom: 15px;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 30px 0;
-    }
-  </style>
 </head>
 
 <body>
   <h1>MLH Events API using Python</h1>
-  <img src="https://your-image-url.com" alt="MLH Events API">
+  <img src="https://framerusercontent.com/images/yBReNVRODd4LJLVJP2iUlLQymGA.png" alt="MLH Events API">
 
   <p>
     This repository focuses on creating a usable API for the MLH (Major League Hacking) events page using Python.
