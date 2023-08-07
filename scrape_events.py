@@ -15,14 +15,17 @@ def scrape_events(year):
     eventDate = eventWrapper.find(".event-date", first=True).text.strip()
     eventStartDate = eventWrapper.find("meta[itemprop = 'startDate']",
                                        first=True).attrs['content']
+    
     eventEndDate = eventWrapper.find("meta[itemprop = 'endDate']",
                                      first=True).attrs['content']
+    
     eventLogo = eventWrapper.find(".event-logo img", first=True).attrs['src']
     eventCity = eventWrapper.find("span[itemprop = 'city']", first=True).text
     eventState = eventWrapper.find("span[itemprop = 'state']", first=True).text
     eventLocation = f"{eventCity}, {eventState}"
     eventHybridNotes = eventWrapper.find(".event-hybrid-notes span",
                                          first=True).text
+    
     eventLink = eventWrapper.find(".event-link", first=True).attrs['href']
     event_data.append({
       "EventName": eventName,
